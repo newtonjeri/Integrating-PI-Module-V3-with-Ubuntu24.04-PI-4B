@@ -1,4 +1,4 @@
-**# Integrating the Raspberry Pi Camera Module V3 with Raspberry Pi 4B on Ubuntu 24.04**
+**# Professional Documentation: Integrating the Raspberry Pi Camera Module V3 with Raspberry Pi 4B on Ubuntu 24.04**
 
 ## **Introduction**
 This guide provides step-by-step instructions for setting up and using the Raspberry Pi Camera Module V3 with a Raspberry Pi 4B running Ubuntu 24.04. It covers disabling legacy camera support, configuring the firmware, installing necessary dependencies, detecting the camera, streaming video, and integrating with ROS2.
@@ -106,3 +106,11 @@ sudo apt-get install ros-jazzy-camera-ros
 ros2 run camera_ros camera_node
 ```
 
+### **6.3 View the Camera Stream using RQT**
+To visualize the camera stream, run the `rqt_image_viewer` node:
+```bash
+ros2 run rqt_image_viewer rqt_image_viewer
+```
+Once the interface opens, select the topic `/camera/image_raw` to view the video feed.
+
+---
