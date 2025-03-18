@@ -106,8 +106,3 @@ sudo apt-get install ros-jazzy-camera-ros
 ros2 run camera_ros camera_node
 ```
 
----
-
-## **Conclusion**
-Following these steps, you can successfully set up and integrate the Raspberry Pi Camera Module V3 with a Raspberry Pi 4B running Ubuntu 24.04. Whether using it for general video streaming or integrating it with ROS2, this guide ensures a smooth setup process.
-
