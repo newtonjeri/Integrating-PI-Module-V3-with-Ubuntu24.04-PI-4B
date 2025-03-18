@@ -1,4 +1,4 @@
-**# Professional Documentation: Integrating the Raspberry Pi Camera Module V3 with Raspberry Pi 4B on Ubuntu 24.04**
+# **Integrating the Raspberry Pi Camera Module V3 with Raspberry Pi 4B on Ubuntu 24.04**
 
 ## **Introduction**
 This guide provides step-by-step instructions for setting up and using the Raspberry Pi Camera Module V3 with a Raspberry Pi 4B running Ubuntu 24.04. It covers disabling legacy camera support, configuring the firmware, installing necessary dependencies, detecting the camera, streaming video, and integrating with ROS2.
